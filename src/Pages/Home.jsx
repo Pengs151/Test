@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {Component, I} from 'react';
 import NavBar from '../components/NavBar.jsx';
 import Footer from '../components/Footer.jsx';
 import Jumbotron from '../components/Jumbotron.jsx'

@@ -14,7 +14,7 @@ export default class LoginPage extends Component{
                 <div className="container">
                 
                     <h2>Welcome</h2>
-                    <p>hello this is the login page
+                    <p>yo this is actually updating
                     </p>
                     
                 </div>
