@@ -10,7 +10,7 @@ export default class CharacterInfo extends Component{
             <div>
               <NavBar CharInfo="nav-item active"/>
               <Jumbotron title="Character Info" subtitle="Characters Background"/>
-              <Footer/>
+              
                 <div className="container">
                     <TextArea TextLabel="Features and Traits"/>
                     <TextArea TextLabel="Other Proficiencies and Languages"/>
@@ -33,7 +33,7 @@ export default class CharacterInfo extends Component{
                     <TextArea TextLabel="Character Backstory"/>
                     <TextArea TextLabel="Treasure"/>
                 </div>
-
+                <Footer/>
             </div>
         );
     }
