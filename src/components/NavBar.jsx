@@ -14,23 +14,23 @@ export default class Navbar extends Component {
       <div className="collapse navbar-collapse" id="navbarCollapse">
         <ul className="navbar-nav mr-auto">
           <li className={this.props.BuildaChar}>
-            <Link className="nav-link" to="/CharacterBuilder">Build a Character <span className="sr-only">(current)</span></Link>
+            <Link className="nav-link" to="/CharacterBuilder">Character Stats <span className="sr-only">(current)</span></Link>
           </li>
           <li className={this.props.CharInfo}>
             <Link className="nav-link" to="/CharacterInfo">Character Info</Link>
           </li>
-          <li className={this.props.LoginAccount}>
-            <Link className="nav-link" to="/LoginPage">Login</Link>
-          </li>
           <li className={this.props.BattleHelper}>
             <Link className="nav-link" to="/BattleHelper">Battle Helper</Link>
           </li>
+          <li className={this.props.StepBuilder}>
+            <Link className="nav-link" to="/stepBuilder">Character Builder Helper</Link>
+          </li>
+          <li className={this.props.LoginAccount}>
+            <Link className="nav-link" to="/LoginPage">Login</Link>
+          </li>
         </ul>
        </div>
-        <form className="form-inline mt-2 mt-md-0">
-          <input className="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search"/>
-          <button className="btn btn-outline-success my-2 my-sm-0" type="submit">bob</button>
-        </form>
+     
         </div>
         
     </nav>

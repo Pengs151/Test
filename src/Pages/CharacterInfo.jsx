@@ -2,23 +2,36 @@ import React, {Component} from 'react';
 import NavBar from '../components/NavBar.jsx';
 import Footer from '../components/Footer.jsx';
 import Jumbotron from '../components/Jumbotron.jsx'
-
+import TextArea from '../components/TextArea';
 
 export default class CharacterInfo extends Component{
     render() {
         return(
             <div>
-              <NavBar CharInfo="nav-item active" />
+              <NavBar CharInfo="nav-item active"/>
               <Jumbotron title="Character Info" subtitle="Characters Background"/>
               <Footer/>
                 <div className="container">
-                
-                    <h2>Character Info</h2>
-                    <p>hello and welcome to this dungeons and dragons beginner tutorial here you 
-                    can build a character and later on after it is done you will be able to have 
-                    a guided tutorial for battle
-                    </p>
-                    
+                    <TextArea TextLabel="Features and Traits"/>
+                    <TextArea TextLabel="Other Proficiencies and Languages"/>
+                    <TextArea TextLabel="Flaws"/>
+                    <TextArea TextLabel="Bonds"/>
+                    <TextArea TextLabel="Ideas"/>
+                    <TextArea TextLabel="Personality Traits"/>
+                    <TextArea TextLabel="Race"/>
+                    <TextArea TextLabel="Character Name"/>
+                    <TextArea TextLabel="Alignment"/>
+                    <TextArea TextLabel="DCI Number"/>
+                    <TextArea TextLabel="Age"/>
+                    <TextArea TextLabel="Height"/>
+                    <TextArea TextLabel="Weight"/>
+                    <TextArea TextLabel="Eyes"/>
+                    <TextArea TextLabel="Skin"/>
+                    <TextArea TextLabel="Hair"/>
+                    <TextArea TextLabel="Alies and Organizations"/>
+                    <TextArea TextLabel="Additional Features and Traits"/>
+                    <TextArea TextLabel="Character Backstory"/>
+                    <TextArea TextLabel="Treasure"/>
                 </div>
 
             </div>
