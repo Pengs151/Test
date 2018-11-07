@@ -7,6 +7,8 @@ import './CharacterBuilder.css'
 
 
 export default class CharacterBuilder extends Component{
+   
+    
     render() {
         return(
             <div>
@@ -16,7 +18,8 @@ export default class CharacterBuilder extends Component{
                 <body>
                     <div className="container col-5">
                         <div className="row">
-                            <StatBox Stat="STRENGTH"/>
+                            <StatBox Stat="STRENGTH" />
+
                             <StatBox Stat="DEXTERITY"/>
                             <StatBox Stat="CONSTITUTION"/>
                             <StatBox Stat="INTELLIGENCE"/>

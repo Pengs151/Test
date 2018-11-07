@@ -17,7 +17,7 @@ export default class Navbar extends Component {
             <Link className="nav-link" to="/CharacterBuilder">Character Stats <span className="sr-only">(current)</span></Link>
           </li>
           <li className={this.props.CharInfo}>
-            <Link className="nav-link" to="/CharacterInfo">Character Info</Link>
+            <Link className="nav-link" to="/CharacterInfo">Character Background</Link>
           </li>
           <li className={this.props.BattleHelper}>
             <Link className="nav-link" to="/BattleHelper">Battle Helper</Link>
