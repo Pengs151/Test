@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './StatBox.css'
 
 export default class StatBox extends Component {
   constructor(props){
@@ -45,7 +46,7 @@ export default class StatBox extends Component {
       //  this.checkValue();
         return (
             
-            <div className="btn-toolbar mb-6" role="toolbar" aria-label="Toolbar with button groups">
+            <div className="btn-toolbar col-5 statbox" role="toolbar" aria-label="Toolbar with button groups">
             <div className="input-group">
               <div className="input-group-prepend">
                 <div className="input-group-text" id="btnGroupAddon">{this.props.Stat}</div>
@@ -53,7 +54,11 @@ export default class StatBox extends Component {
               <div className="col-6">
               <input type="text" name = {this.props.Stat}  value ={this.state.value} onChange={this.handleChange}  className="form-control"/>
               </div>
-              <button type="button" className="btn btn-secondary">+</button>
+            <button type="button" className="btn btn-secondary">+</button>
+              <p>
+                            {this.props.description}
+                            </p>
+                            <img className="col-4" src={this.props.image} alt="" width="72" height="72"/>
             </div>
           </div>
           

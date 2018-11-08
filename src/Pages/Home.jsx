@@ -11,14 +11,15 @@ export default class Home extends Component{
             <div>
               <NavBar />
               <Jumbotron title="WELCOME" subtitle="THIS IS THE HOMEPAGE"/>
-              <Footer/>
+              
                 <div className="container">
                 
                     <h2>Welcome BOB</h2>
                         
                 </div>
-
+                <Footer/>
             </div>
+            
         );
     }
 }
