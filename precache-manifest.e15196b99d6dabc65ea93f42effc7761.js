@@ -1,5 +1,9 @@
 self.__precacheManifest = [
   {
+    "revision": "0a674cd512d246c2a39729c82d55fb09",
+    "url": "/Test/static/media/strength2.0a674cd5.jpeg"
+  },
+  {
     "revision": "c9201d40606519ca2549c3482c9aaf7e",
     "url": "/Test/static/media/Spyro.c9201d40.jpg"
   },
@@ -12,19 +16,19 @@ self.__precacheManifest = [
     "url": "/Test/static/js/runtime~main.658d72dc.js"
   },
   {
-    "revision": "72ee453eb760ba753636",
-    "url": "/Test/static/js/main.72ee453e.chunk.js"
+    "revision": "993209f73a498255e660",
+    "url": "/Test/static/js/main.993209f7.chunk.js"
   },
   {
-    "revision": "0b730b094abeaa7a4c88",
-    "url": "/Test/static/js/1.0b730b09.chunk.js"
+    "revision": "0d7259d884860685f2a7",
+    "url": "/Test/static/js/1.0d7259d8.chunk.js"
   },
   {
-    "revision": "72ee453eb760ba753636",
-    "url": "/Test/static/css/main.3964da90.chunk.css"
+    "revision": "993209f73a498255e660",
+    "url": "/Test/static/css/main.5906fb53.chunk.css"
   },
   {
-    "revision": "7ed7b7fa34e2a0cd2499528e313e7676",
+    "revision": "6ca5b66068f0d3d40cd07f7e88f4a0d9",
     "url": "/Test/index.html"
   }
 ];
