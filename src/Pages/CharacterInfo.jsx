@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { Link } from 'react-router-dom';
 import NavBar from '../components/NavBar.jsx';
 import Footer from '../components/Footer.jsx';
 import Jumbotron from '../components/Jumbotron.jsx'
@@ -32,6 +33,8 @@ export default class CharacterInfo extends Component{
                     <TextArea TextLabel="Additional Features and Traits"/>
                     <TextArea TextLabel="Character Backstory"/>
                     <TextArea TextLabel="Treasure"/>
+
+                    <Link className="nav-link" to="/CharacterSheet">Check Out Your Character!</Link>  
                 </div>
                 <Footer/>
             </div>

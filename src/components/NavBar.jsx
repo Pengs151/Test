@@ -25,7 +25,11 @@ export default class Navbar extends Component {
           <li className={this.props.StepBuilder}>
             <Link className="nav-link" to="/stepBuilder">Character Builder Helper</Link>
           </li>
-          <li className={this.props.LoginAccount}>
+          
+          <li className={this.props.CharacterSheet}>
+            <Link className="nav-link" to="/CharacterSheet">Character Sheet </Link>
+            </li>
+            <li className={this.props.LoginAccount}>
             <Link className="nav-link" to="/LoginPage">Login</Link>
           </li>
         </ul>

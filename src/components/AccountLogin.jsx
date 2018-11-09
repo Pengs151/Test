@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import drago from '../Images/Spyro.jpg'
+import drago from '../Images/Spyro.jpg';
+
 export default class AccountLogin extends Component{
     render(){
         return(

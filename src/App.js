@@ -9,6 +9,7 @@ import CharacterInfo from './Pages/CharacterInfo';
 import LoginPage from './Pages/LoginPage';
 import BattleHelper from './Pages/BattleHelper';
 import StepBuilder from './Pages/StepBuilder';
+import CharacterSheet from './Pages/CharacterSheet'
 
 class App extends Component {
   render() {
@@ -21,6 +22,7 @@ class App extends Component {
          <Route exact path="/LoginPage" component = {LoginPage}/>
          <Route exact path="/BattleHelper" component = {BattleHelper}/>
          <Route exact path="/StepBuilder" component = {StepBuilder}/>
+         <Route exact path="/CharacterSheet" component = {CharacterSheet}/>
        
        </div>
      </Router>
