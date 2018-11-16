@@ -43,18 +43,18 @@ export default class D6 extends Component{
        else{
         this.RollTotal = this.FirstRoll + this.SecondRoll + this.ThirdRoll;
        }
-       this.setState({D1: "These are your rolls " + this.FirstRoll + " ," 
-        + this.SecondRoll + " ," + this.ThirdRoll + " ," + this.FourthRoll + " The highest 3 added together = "+ this.RollTotal});
-       
+       //this.setState({D1: "These are your rolls " + this.FirstRoll + " ," 
+       // + this.SecondRoll + " ," + this.ThirdRoll + " ," + this.FourthRoll + " The highest 3 added together = "+ this.RollTotal});
+       this.setState({D1: this.RollTotal})
    }
    
     render(){
        return(
-     <div>
+     <div className='row'>
     <button className="btn btn-secondary" type="button" onClick={() => this.rollD6()}> 
     Roll For Ability Score
     </button>
-    <textarea className="form-control" value={this.state.D1} aria-label="With textarea"></textarea>
+    <textarea value={this.state.D1} aria-label="With textarea"></textarea>
     </div>
     );
 }

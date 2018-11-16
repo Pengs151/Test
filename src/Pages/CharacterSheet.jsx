@@ -4,6 +4,12 @@ import Footer from '../components/Footer.jsx';
 import Jumbotron from '../components/Jumbotron.jsx';
 import TextArea from '../components/TextArea';
 import StatBox from '../components/StatBox';
+import Race from '../components/RaceComp';
+import ClassComp from '../components/ClassComp';
+import ClassButton from '../components/ClassButton';
+import RaceButton from '../components/RaceButton';
+import CharSheetNav from '../components/CharSheetNav';
+import Proficiencies from '../components/Proficiencies';
 
 
 export default class CharacterSheet extends Component{
@@ -14,41 +20,27 @@ export default class CharacterSheet extends Component{
               <Jumbotron title="Character Sheet" subtitle=""/>
              
                 <div className="container">
-                <StatBox Stat="STRENGTH"/>
+                <CharSheetNav/>
+                <div className="row">
+                <RaceButton/>
+                <ClassButton/>
+                </div>
+                <StatBox Stat="Health Points" hidden="hidden"/>
+                <StatBox Stat="STRENGTH" hidden="hidden"/>
                             
-                        
-                            <StatBox Stat="DEXTERITY" />
+                         
+                            <StatBox Stat="DEXTERITY" hidden="hidden"/>
 
 
-                              <StatBox Stat="CONSTITUTION"/>
+                              <StatBox Stat="CONSTITUTION" hidden="hidden"/>
                             
-                            <StatBox Stat="INTELLIGENCE"/>
+                            <StatBox Stat="INTELLIGENCE" hidden="hidden"/>
 
-                            <StatBox Stat="CHARISMA" />
+                            <StatBox Stat="CHARISMA" hidden="hidden"/>
                             
-                            <StatBox Stat="WISDOM" /> 
+                            <StatBox Stat="WISDOM" hidden="hidden" /> 
                 
-                <TextArea TextLabel="Features and Traits"/>
-                    <TextArea TextLabel="Other Proficiencies and Languages"/>
-                    <TextArea TextLabel="Flaws"/>
-                    <TextArea TextLabel="Bonds"/>
-                    <TextArea TextLabel="Ideas"/>
-                    <TextArea TextLabel="Personality Traits"/>
-                    <TextArea TextLabel="Race"/>
-                    <TextArea TextLabel="Character Name"/>
-                    <TextArea TextLabel="Alignment"/>
-                    <TextArea TextLabel="DCI Number"/>
-                    <TextArea TextLabel="Age"/>
-                    <TextArea TextLabel="Height"/>
-                    <TextArea TextLabel="Weight"/>
-                    <TextArea TextLabel="Eyes"/>
-                    <TextArea TextLabel="Skin"/>
-                    <TextArea TextLabel="Hair"/>
-                    <TextArea TextLabel="Alies and Organizations"/>
-                    <TextArea TextLabel="Additional Features and Traits"/>
-                    <TextArea TextLabel="Character Backstory"/>
-                    <TextArea TextLabel="Treasure"/>
-                    
+                    <Proficiencies />
                     
                 </div>
                 <Footer/>
